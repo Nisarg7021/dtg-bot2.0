@@ -12,7 +12,7 @@ Ex: `/batch -100xxx`
 """
 
 START_MESSAGE ='''**Hello, {}
-I Am Greylinks Official Link Converter. I Can Convert Links Directly From Your GreyMatterslinks.in Account,
+I Am Greylinks Official Link Converter. I Can Convert Links Directly From Your DtgLinks.in Account,
     
 1. Go To 👉 https://DTGLINKS.IN/member/tools/api 
 
@@ -65,34 +65,17 @@ ABOUT_TEXT =  """
 **My Details:**
 `🤖 Name:` ** {} **
     
-`📝 Language:` [Python 3](https://www.python.org/)
+`📝 Site         :` [DTGLinks](https://DtgLinks.in/)
 
-`🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
+`🧰 Store        :` [MaviUpload](https://MaviUpload.com)
 
-`👨‍💻 Developer:` [GreyMatter's](https://t.me/GreyMattersTech)
+`👨‍💻 Join Channel :` ['s](https://t.me/GreyMattersTech)
 
-`📢 Support:`   [SUPPORT](mailto:contact@GreyMattersTech.com)
+`📢 Support      :` [SUPPORT](https://t.me/DTGLINKS_HELP_BOT)
 
 """
 
 
-METHOD_MESSAGE = """
-Current Method: {method}
-    
-Methods Available:
-
-~ `mdlink` - Change all the links of the post to your MDisk account first and then short to DTGLINKS.IN link.
-
-~ `shortener` - Short all the links of the post to linkbnao.com link directly.
-
-To change method, choose it from the following options:
-"""
-
-CUSTOM_ALIAS_MESSAGE = """For custom alias, `[link] | [custom_alias]`, Send in this format
-
-This feature works only in private mode only
-
-Ex: https://t.me/example | Example"""
 
 
 ADMINS_MESSAGE = """
@@ -111,7 +94,7 @@ List of channels that have access to this Bot:
 HELP_REPLY_MARKUP = InlineKeyboardMarkup([
    
     [
-        InlineKeyboardButton('Custom Alias', callback_data=f'alias_conf'),
+        InlineKeyboardButton('About', callback_data=f'about_command'),
     ],
 
     [
