@@ -155,7 +155,7 @@ async def banner_image_handler(bot, m: Message):
 async def me_handler(bot, m:Message):
     user_id = m.from_user.id
     user = await get_user(user_id)
-
+    cmd = m.command
     user_id = m.from_user.id
     user = await get_user(user_id)
     res = USER_ABOUT_MESSAGE.format(
