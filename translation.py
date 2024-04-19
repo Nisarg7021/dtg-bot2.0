@@ -69,7 +69,7 @@ ABOUT_TEXT =  """
 
 `🧰 Store        :` [MaviUpload](https://MaviUpload.com)
 
-`👨‍💻 Join Channel :` ['s](https://t.me/GreyMattersTech)
+`👨‍💻 Join Channel :` [Updates](https://t.me/codercreation)
 
 `📢 Support      :` [SUPPORT](https://t.me/DTGLINKS_HELP_BOT)
 
