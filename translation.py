@@ -12,7 +12,7 @@ Ex: `/batch -100xxx`
 """
 
 START_MESSAGE ='''**Hello, {}
-I Am Greylinks Official Link Converter. I Can Convert Links Directly From Your DtgLinks.in Account,
+I Am DTGLINKS.IN Official Link Converter. I Can Convert Links Directly From Your DtgLinks.in Account,
     
 1. Go To 👉 https://DTGLINKS.IN/member/tools/api 
 
